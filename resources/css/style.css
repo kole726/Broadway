@@ -1,3 +1,8 @@
+/* Body */
+body{
+  text-align: center;
+}
+/* Title */
 #title{
   font-family: Helvetica;
   font-weight: bold;
@@ -9,6 +14,7 @@
 #title h1{
   font-size: 70px;
 }
+/* Menu */
 #menu{
   font-family: Helvetica;
   text-align: center;
@@ -17,11 +23,21 @@
 }
 #menu a{
   color: white;
-
+}
+#ourprocess{
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Helvetica;
 }
 #maintext{
   text-align: center;
 }
+h4{
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+}
+/* DesignedInNewYorkTitle */
 #DesignedInNewYorkTitle{
   font-family: Helvetica;
   font-size: 23px;
@@ -29,9 +45,14 @@
   color: white;
   background: url('../images/BroadwayBuilding.png');
 }
+/* Bottom */
 #BottomPage{
-  font-size: 11px;
   font-family: Helvetica;
-  color: white;
   background-color: dimgray;
+}
+#BottomPage a{
+  color: white;
+}
+#copyright{
+  font-size: 11px;
 }
