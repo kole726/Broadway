@@ -1,12 +1,37 @@
-body{
-  text-align: center;
-}
-
-
-
-h3{
+#title{
   font-family: Helvetica;
-  font-size: 70px;
   font-weight: bold;
   color: white;
+  text-align: center;
+  background: url('../images/BroadwayBuilding.png') no-repeat;
+  background-size: cover;
+}
+#title h1{
+  font-size: 70px;
+}
+#menu{
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 18px;
+  list-style-type: none;
+}
+#menu a{
+  color: white;
+
+}
+#maintext{
+  text-align: center;
+}
+#DesignedInNewYorkTitle{
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background: url('../images/BroadwayBuilding.png');
+}
+#BottomPage{
+  font-size: 11px;
+  font-family: Helvetica;
+  color: white;
+  background-color: dimgray;
 }
